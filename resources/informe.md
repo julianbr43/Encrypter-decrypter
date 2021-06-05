@@ -1,8 +1,8 @@
 # Desarrollo del proyecto
-Para desarrollar este proyecto, tuve que, primero, consultar el ejercicio de cifrado/descifrado que realizamos en clase, pues era la actividad más parecida a lo solicitado en el proyecto. Luego, tuve que realizar ingeniería inversa a ese proyecto para entender su funcionamiento y como podría implementarlo con las especificaciones solicitadas. Del mismo modo, estuve consultando en internet como obtener la clave, general el sha1, etc.
+Para el desarollo de este proyecto primero tuve que retomar lo que habiamos visto en unas de las primeras clases del curso donde vimos de manera práctica como realizar la encriptación y la desencriptación 
 
 # Dificultades
-Creo que la mayor dificultad que se me presentó, fue el hecho de que no pude probar el algoritmo de cifrado sino hasta tener el algoritmo de descifrado, por lo que perdí un poco de tiempo, pues cuando me falló el descifrado podía estar fallando porque había cifrado mal el archivo.
+La mayor dificultad que presente fue a la hora de generar el algoritmo de hash SHA-1 puesto que no entendia bien como podria hacerlo.
 
 # Conclusiones
-Tanto del curso como del proyecto, fueron muy interesantes, nunca había trabajado con la API de criptografía de Java y me pareció muy chévere. Las actividades, tareas y bonus me parecieron muy adecuados, pues te retaban a aplicar los conceptos vistos en clase. De pronto el único comentario, es que tanto por la virtualidad como por el paro y el covid, me desmotivé un poco en la parte final del curso, pues ya quería terminar, pero el profesor siempre mostró una actitud de apoyo y comprensión frente a todo lo que se vivió. Muchas gracias.
+Con este programa se pude cifrar y decifrar archivos con el algoritmo AES y una clave de 128 bits, empleada con el algoritmo PBKDF2. Tambien se pude apreciar el proceso que se emplea para la criptografía y así lograr tranformar un mensaje, de tal forma que quede incomprensible y de esta forma la información se mantendra segura.
