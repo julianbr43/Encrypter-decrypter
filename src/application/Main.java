@@ -10,7 +10,11 @@ import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.layout.Pane;
 
-
+/**
+ * This class defines the connection of the model with the visual part of the program
+ * @author: Julián Andrés Brito
+ * @version: 5/06/2021
+ */
 public class Main extends Application {
 	private static EncrypterDecrypter model = new EncrypterDecrypter();
 	

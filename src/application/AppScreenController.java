@@ -13,6 +13,11 @@ import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
+/**
+ * This class defines the main screen controller
+ * @author: Julián Andrés Brito
+ * @version: 5/06/2021
+ */
 public class AppScreenController {
 	
 	@FXML
@@ -43,6 +48,9 @@ public class AppScreenController {
 		}
 	}
 	
+	/**
+	 * Method to encrypt a file
+	 */
 	public void encrypter() {
 		
 		if(file!=null) {
@@ -60,6 +68,9 @@ public class AppScreenController {
 
 	}
 	
+	/**
+	 * Method to decrypt a file
+	 */
 	public void decrypter() {
 		
 		if(file!=null) {
@@ -76,6 +87,9 @@ public class AppScreenController {
 
 	}
 	
+	/**
+	 * Method to display an alert when no file has been selected
+	 */
 	public void alertFile() {
 		Alert alert = new Alert(AlertType.INFORMATION);
 		alert.setTitle("Choose file");
@@ -85,6 +99,9 @@ public class AppScreenController {
 		alert.showAndWait();
 	}
 	
+	/**
+	 * Method to display an alert when a password has not been set
+	 */
 	public void alertPassword() {
 		Alert alert = new Alert(AlertType.INFORMATION);
 		alert.setTitle("Password");
@@ -94,6 +111,10 @@ public class AppScreenController {
 		alert.showAndWait();
 	}
 	
+	/**
+	 * Method to display an alert to know if the SHA-1 of 
+	 * the encrypted and decrypted file match or do not match
+	 */
 	public void validation() {
 		boolean isShaOk = Main.getmodel().validateSHA();
 		if (isShaOk) {
@@ -113,6 +134,9 @@ public class AppScreenController {
 		}
 	}
 	
+	/**
+	 * Method to display an alert when the file was successfully encrypted
+	 */
 	public void alertSuccess() {
 		Alert alert = new Alert(AlertType.INFORMATION);
 		alert.setTitle("Success");

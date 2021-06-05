@@ -24,6 +24,12 @@ import javax.crypto.spec.PBEKeySpec;
 import javax.crypto.spec.SecretKeySpec;
 import javax.swing.JFileChooser;
 
+
+/**
+ * This class defines a program that encrypts and decrypts files
+ * @author: Julián Andrés Brito
+ * @version: 5/06/2021
+ */
 public class EncrypterDecrypter {
 	public final static String AES_ALGORITHM = "AES";
 	public final static String PBK_ALGORITHM = "PBKDF2WithHmacSHA256";
