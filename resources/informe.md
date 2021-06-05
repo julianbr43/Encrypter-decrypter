@@ -1,5 +1,5 @@
 # Desarrollo del proyecto
-Para el desarollo de este proyecto primero tuve que retomar lo que habiamos visto en unas de las primeras clases del curso donde vimos de manera práctica como realizar la encriptación y la desencriptación 
+Para el desarollo de este programa primero tuve que retomar lo que habiamos visto en unas de las primeras clases del curso donde vimos de manera práctica como realizar la encriptación y la desencriptación de archivos de texto plano 
 
 # Dificultades
 La mayor dificultad que presente fue a la hora de generar el algoritmo de hash SHA-1 puesto que no entendia bien como podria hacerlo.
