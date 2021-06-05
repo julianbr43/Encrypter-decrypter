@@ -1,4 +1,4 @@
-# Desarrollo del proyecto
+# Desarrollo del programa
 Para el desarollo de este programa primero tuve que retomar lo que habiamos visto en unas de las primeras clases del curso donde vimos de manera práctica como realizar la encriptación y la desencriptación de archivos de texto plano 
 
 # Dificultades
